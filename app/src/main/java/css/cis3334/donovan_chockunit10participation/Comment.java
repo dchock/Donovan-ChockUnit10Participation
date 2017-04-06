@@ -9,6 +9,15 @@ package css.cis3334.donovan_chockunit10participation;
 public class Comment {
     private long id;
     private String comment;
+    private String Rating;
+
+    public String getRating() {
+        return Rating;
+    }
+
+    public void setRating(String string) {
+        this.Rating = Rating;
+    }
 
     public long getId() {
         return id;
